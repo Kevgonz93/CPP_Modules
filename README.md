@@ -22,11 +22,11 @@ CPP00/
 
 #### 📋 Ejercicios
 
-| Ejercicio | Nombre                 | Conceptos clave                                                                        | Estado       |
-| :-------- | :--------------------- | :------------------------------------------------------------------------------------- | :----------- |
-| **ex00**  | `megaphone`            | argumentos de programa, `std::toupper`, bucles, `argv`/`argc`                          | ✅ terminado |
-| **ex01**  | `My Awesome PhoneBook` | clases, métodos, arrays de objetos, entrada/salida con `std::getline`                  | ✅ terminado |
-| **ex02**  | `Account`              | clases, métodos estáticos, listas de inicialización, `const`, `std::vector`, timestamp | ✅ terminado |
+| Ejercicio | Nombre                 | Conceptos clave                                                                        |
+| :-------- | :--------------------- | :------------------------------------------------------------------------------------- |
+| **ex00**  | `megaphone`            | argumentos de programa, `std::toupper`, bucles, `argv`/`argc`                          |
+| **ex01**  | `My Awesome PhoneBook` | clases, métodos, arrays de objetos, entrada/salida con `std::getline`                  |
+| **ex02**  | `Account`              | clases, métodos estáticos, listas de inicialización, `const`, `std::vector`, timestamp |
 
 ---
 
