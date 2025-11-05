@@ -7,26 +7,45 @@
 
 ## 📘 Módulo actual
 
-### **CPP00 — My First Class in C++**
+### **CPP03 — Inheritance**
 
-> Namespaces, clases, funciones miembro, `static`, `const` y streams (`std::cout`, `std::cin`).
+> Clases base y derivadas, constructores en herencia, visibilidad (`public`, `protected`), sobreescritura y uso de `super` (llamadas al constructor base).
 
 #### 🗂️ Estructura
 
 ```
-CPP00/
-├── ex00/  → Megaphone
-├── ex01/  → My Awesome PhoneBook
-└── ex02/  → The Job of Your Dreams
+CPP03/
+├── ex00/  → ClapTrap
+├── ex01/  → ScavTrap
+├── ex02/  → FragTrap
+└── ex03/  → DiamondTrap
 ```
 
 #### 📋 Ejercicios
 
-| Ejercicio | Nombre                 | Conceptos clave                                                                        |
-| :-------- | :--------------------- | :------------------------------------------------------------------------------------- |
-| **ex00**  | `megaphone`            | argumentos de programa, `std::toupper`, bucles, `argv`/`argc`                          |
-| **ex01**  | `My Awesome PhoneBook` | clases, métodos, arrays de objetos, entrada/salida con `std::getline`                  |
-| **ex02**  | `Account`              | clases, métodos estáticos, listas de inicialización, `const`, `std::vector`, timestamp |
+| Ejercicio | Nombre        | Conceptos clave                                                        |
+| :-------- | :------------ | :--------------------------------------------------------------------- |
+| **ex00**  | `ClapTrap`    | clases base, métodos miembro, encapsulación                            |
+| **ex01**  | `ScavTrap`    | herencia simple, sobreescritura, `protected`                           |
+| **ex02**  | `FragTrap`    | especialización, herencia, constructores personalizados                |
+| **ex03**  | `DiamondTrap` | herencia múltiple, ambigüedad, resolución de métodos con ámbito (`::`) |
+
+---
+
+## 📚 Progreso
+
+| Módulo    | Tema principal                                                           | Estado         |
+| :-------- | :----------------------------------------------------------------------- | :------------- |
+| **CPP00** | Fundamentos de C++: namespaces, clases, `static`, `const`, streams       | ✅ Completado  |
+| **CPP01** | Referencias, punteros a miembros, `new` / `delete`, `this`               | ✅ Completado  |
+| **CPP02** | Sobrecarga de operadores, forma canónica ortodoxa                        | ✅ Completado  |
+| **CPP03** | Herencia simple y múltiple                                               | 🟢 En progreso |
+| **CPP04** | Polimorfismo y clases abstractas (`virtual`, `override`, `pure virtual`) | 🔜 Próximo     |
+| **CPP05** | Excepciones, `try`/`catch`, control de errores                           | ⏳ Pendiente   |
+| **CPP06** | Casts (`static_cast`, `dynamic_cast`, etc.)                              | ⏳ Pendiente   |
+| **CPP07** | Plantillas (`templates`)                                                 | ⏳ Pendiente   |
+| **CPP08** | Contenedores y algoritmos (`STL`, iteradores)                            | ⏳ Pendiente   |
+| **CPP09** | Programación genérica avanzada, `containers`, `map`, `deque`             | ⏳ Pendiente   |
 
 ---
 
@@ -36,9 +55,9 @@ Cada ejercicio incluye su propio **Makefile**.
 Compila desde el directorio del ejercicio, por ejemplo:
 
 ```bash
-cd CPP00/ex02
+cd CPP03/ex02
 make
-./account
+./fragtrap
 ```
 
 Los flags usados siguen las normas de 42:
@@ -47,22 +66,63 @@ Los flags usados siguen las normas de 42:
 -Wall -Wextra -Werror -std=c++98
 ```
 
-## 🧠 Conceptos aprendidos
+---
 
-    •	std::cout / std::cin / std::string
-    •	Clases y objetos (class, atributos privados)
-    •	Funciones miembro y listas de inicialización
-    •	Variables y métodos static
-    •	Calificación const para funciones miembro
-    •	Formato de salida (std::setw, std::setfill)
-    •	Tipos y plantillas básicas (std::vector, std::pair, std::for_each)
+## 🧠 Conceptos aprendidos hasta ahora
 
-## 🚀 Próximos pasos
+- **Fundamentos:** `std::cout`, `std::cin`, `std::string`
+- **Clases y objetos:** constructores, destructores, encapsulación
+- **Forma canónica ortodoxa:** `constructor`, `copy constructor`, `operator=`, `destructor`
+- **Operadores sobrecargados:** `<<`, `+`, `-`, `*`, `/`, comparaciones
+- **Herencia:** visibilidad (`public` / `protected`), sobreescritura, clases derivadas
+- **Polimorfismo inicial:** llamadas a métodos de la clase base desde derivadas
+- **Buena práctica:** separación `.hpp` / `.cpp`, inicialización de miembros, const-correctness
 
-- [x] **CPP00** – Fundamentos de C++: namespaces, clases, `static`, `const`, streams
-- [ ] **CPP01** – Referencias, punteros a miembros, `new` / `delete`, `this`
-- [ ] **CPP02** – Sobrecarga de operadores, forma canónica ortodoxa
-- [ ] **CPP03–CPP09** – Herencia, polimorfismo, excepciones, plantillas, STL
+---
+
+## 🧩 Estructura del repositorio
+
+```
+CPP_Modules/
+├── cpp00/
+│   ├── ex00/ → Megaphone
+│   ├── ex01/ → My Awesome PhoneBook
+│   ├── ex02/ → Account
+│   ├── cpp00.pdf
+│   └── notas.md
+│
+├── cpp01/
+│   ├── ex00/ → BraiiiiiiinnnzzzZ
+│   ├── ex01/ → Moar Brainz!
+│   ├── ex02/ → HI THIS IS BRAIN
+│   ├── ex03/ → Unnecessary Violence
+│   ├── ex04/ → Sed is for losers
+│   ├── ex05/ → Harl 2.0
+│   ├── ex06/ → HarlFilter
+│   └── cpp01.pdf
+│
+├── cpp02/
+│   ├── ex00/ → My First Class (Fixed)
+│   ├── ex01/ → Canonical Form
+│   ├── ex02/ → Arithmetic Operators
+│   ├── ex03/ → BSP (Point in Triangle)
+│   └── cpp02.pdf
+│
+├── cpp03/
+│   ├── ex00/ → ClapTrap
+│   ├── ex01/ → ScavTrap
+│   ├── ex02/ → FragTrap
+│   ├── ex03/ → DiamondTrap
+│   └── cpp03.pdf
+│
+├── cpp04/
+│   └── (pendiente)
+│
+├── README.md
+└── notas.md
+```
+
+---
 
 ## 👨‍💻 Autor
 
