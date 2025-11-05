@@ -5,47 +5,15 @@
 
 ---
 
-## 📘 Módulo actual
-
-### **CPP03 — Inheritance**
-
-> Clases base y derivadas, constructores en herencia, visibilidad (`public`, `protected`), sobreescritura y uso de `super` (llamadas al constructor base).
-
-#### 🗂️ Estructura
-
-```
-CPP03/
-├── ex00/  → ClapTrap
-├── ex01/  → ScavTrap
-├── ex02/  → FragTrap
-└── ex03/  → DiamondTrap
-```
-
-#### 📋 Ejercicios
-
-| Ejercicio | Nombre        | Conceptos clave                                                        |
-| :-------- | :------------ | :--------------------------------------------------------------------- |
-| **ex00**  | `ClapTrap`    | clases base, métodos miembro, encapsulación                            |
-| **ex01**  | `ScavTrap`    | herencia simple, sobreescritura, `protected`                           |
-| **ex02**  | `FragTrap`    | especialización, herencia, constructores personalizados                |
-| **ex03**  | `DiamondTrap` | herencia múltiple, ambigüedad, resolución de métodos con ámbito (`::`) |
-
----
-
 ## 📚 Progreso
 
-| Módulo    | Tema principal                                                           | Estado         |
-| :-------- | :----------------------------------------------------------------------- | :------------- |
-| **CPP00** | Fundamentos de C++: namespaces, clases, `static`, `const`, streams       | ✅ Completado  |
-| **CPP01** | Referencias, punteros a miembros, `new` / `delete`, `this`               | ✅ Completado  |
-| **CPP02** | Sobrecarga de operadores, forma canónica ortodoxa                        | ✅ Completado  |
-| **CPP03** | Herencia simple y múltiple                                               | 🟢 En progreso |
-| **CPP04** | Polimorfismo y clases abstractas (`virtual`, `override`, `pure virtual`) | 🔜 Próximo     |
-| **CPP05** | Excepciones, `try`/`catch`, control de errores                           | ⏳ Pendiente   |
-| **CPP06** | Casts (`static_cast`, `dynamic_cast`, etc.)                              | ⏳ Pendiente   |
-| **CPP07** | Plantillas (`templates`)                                                 | ⏳ Pendiente   |
-| **CPP08** | Contenedores y algoritmos (`STL`, iteradores)                            | ⏳ Pendiente   |
-| **CPP09** | Programación genérica avanzada, `containers`, `map`, `deque`             | ⏳ Pendiente   |
+| Módulo    | Tema principal                                                           | Estado        |
+| :-------- | :----------------------------------------------------------------------- | :------------ |
+| **CPP00** | Fundamentos de C++: namespaces, clases, `static`, `const`, streams       | ✅ Completado |
+| **CPP01** | Referencias, punteros a miembros, `new` / `delete`, `this`               | ✅ Completado |
+| **CPP02** | Sobrecarga de operadores, forma canónica ortodoxa                        | ✅ Completado |
+| **CPP03** | Herencia simple y múltiple                                               | ✅ Completado |
+| **CPP04** | Polimorfismo y clases abstractas (`virtual`, `override`, `pure virtual`) | 🔜 Próximo    |
 
 ---
 
