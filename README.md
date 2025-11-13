@@ -13,7 +13,7 @@
 | **CPP01** | Referencias, punteros a miembros, `new` / `delete`, `this`               | ✅ Completado |
 | **CPP02** | Sobrecarga de operadores, forma canónica ortodoxa                        | ✅ Completado |
 | **CPP03** | Herencia simple y múltiple                                               | ✅ Completado |
-| **CPP04** | Polimorfismo y clases abstractas (`virtual`, `override`, `pure virtual`) | 🔜 Próximo    |
+| **CPP04** | Polimorfismo y clases abstractas (`virtual`, `override`, `pure virtual`) | ✅ Completado |
 
 ---
 
@@ -84,7 +84,11 @@ CPP_Modules/
 │   └── cpp03.pdf
 │
 ├── cpp04/
-│   └── (pendiente)
+│   ├── ex00/ → Polymorphism Basics
+│   ├── ex01/ → Memory and Brain (Animals)
+│   ├── ex02/ → Abstract Classes (Materia)
+│   ├── ex03/ → Interface & MateriaSource
+│   └── cpp04.pdf
 │
 ├── README.md
 └── notas.md
